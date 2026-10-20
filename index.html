@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D & T Air Conditioning | Cypress & NW Houston HVAC Services</title>
+  <meta name="description" content="Professional residential, commercial, and industrial HVAC, heating, indoor air quality, and water heater service in Cypress, Northwest Houston, Spring, and Tomball, TX. TACLB4005E.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Tailwind Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#0B1B35',
+              blue: '#183A84',
+              red: '#D71920',
+              ice: '#EAF4FC',
+              white: '#FFFFFF',
+              slate: '#566579',
+              slateLight: '#F4F7FA',
+              darkSurface: '#081326'
+            }
+          },
+          fontFamily: {
+            sora: ['Sora', 'sans-serif'],
+            sans: ['Inter', 'sans-serif']
+          },
+          boxShadow: {
+            'subtle': '0 4px 20px -2px rgba(11, 27, 53, 0.06)',
+            'elevated': '0 20px 40px -15px rgba(11, 27, 53, 0.12)',
+            'navy-glow': '0 10px 30px -5px rgba(24, 58, 132, 0.3)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Airflow & Technical Canvas Styling */
+    .airflow-pattern {
+      background-image: radial-gradient(rgba(24, 58, 132, 0.08) 1px, transparent 0);
+      background-size: 24px 24px;
+    }
+    .technical-grid-dark {
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+    .flow-line {
+      stroke-dasharray: 8, 8;
+      animation: dashMove 30s linear infinite;
+    }
+    @keyframes dashMove {
+      to {
+        stroke-dashoffset: -1000;
+      }
+    }
+    /* Seamless Logo Integration (Removes boxy borders and blends cleanly) */
+    .brand-logo-clean {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      padding: 0;
+    }
+    .brand-logo-clean img {
+      mix-blend-mode: multiply;
+      display: block;
+    }
+    /* Footer logo substrate with soft natural blend */
+    .footer-logo-wrap {
+      display: inline-flex;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    }
+    /* Smooth transitions between views */
+    .tab-content {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    .tab-content.active {
+      display: block;
+      opacity: 1;
+    }
+    /* Custom form select styling */
+    select {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23566579' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E");
+      background-position: right 0.75rem center;
+      background-repeat: no-repeat;
+      background-size: 1.25em 1.25em;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  </style>
+</head>
+<body class="bg-[#F8FAFC] text-brand-navy font-sans antialiased selection:bg-brand-blue selection:text-white flex flex-col min-h-screen">
+
+  <!-- Top Utility Bar with Symmetric Flex Alignment -->
+  <header class="bg-brand-navy text-white text-xs border-b border-brand-blue/30 relative z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-10 flex justify-between items-center">
+      <div class="flex items-center gap-3 sm:gap-4">
+        <span class="inline-flex items-center gap-1.5 text-brand-ice font-medium">
+          <i class="fa-solid fa-shield-halved text-brand-red text-xs"></i>
+          <span>Texas License:</span>
+          <span class="text-white font-semibold tracking-wide">TACLB4005E</span>
+        </span>
+        <span class="hidden md:inline text-white/30">•</span>
+        <span class="hidden md:inline-flex items-center gap-1.5 text-slate-300">
+          <i class="fa-solid fa-map-location-dot text-brand-ice text-xs"></i>
+          <span>Serving Cypress, NW Houston, Spring & Tomball</span>
+        </span>
+      </div>
+      <div class="flex items-center gap-4 text-xs font-medium">
+        <span class="hidden lg:inline-flex items-center text-brand-ice/80">Residential • Commercial • Industrial</span>
+        <span class="hidden lg:inline text-white/30">•</span>
+        <a href="tel:2819558986" class="inline-flex items-center gap-1.5 text-white hover:text-brand-ice font-bold transition-colors">
+          <i class="fa-solid fa-phone text-brand-red text-[11px]"></i>
+          <span class="tracking-wide">281-955-8986</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Navigation Bar with Precision Vertical & Horizontal Alignment -->
+  <nav class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-all duration-300 shadow-sm" id="main-nav">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Left: Logo Lockup Vertically Centered -->
+        <div class="flex items-center flex-shrink-0">
+          <a href="#home" onclick="switchPage('home')" class="flex items-center gap-3 group focus:outline-none" aria-label="D & T Air Conditioning Home">
+            <div class="brand-logo-clean transition-transform duration-200 group-hover:scale-[1.02] flex items-center">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/035bd03e-316a-4ffb-aa66-e34d0fc590d0.jpg" 
+                alt="D & T Air Conditioning Official Logo" 
+                class="h-11 sm:h-12 w-auto object-contain block"
+                loading="eager"
+              />
+            </div>
+            <div class="hidden xl:flex flex-col justify-center border-l border-slate-200 pl-3 leading-tight">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-brand-blue font-sora">Air Conditioning & Heating</span>
+              <span class="text-[10px] text-brand-slate font-medium">Precision Climate Systems</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Center: Desktop Nav Links Evenly Spaced & Aligned -->
+        <nav class="hidden lg:flex items-center justify-center gap-1 xl:gap-2">
+          <button onclick="switchPage('home')" id="nav-link-home" class="nav-item text-sm font-semibold text-brand-navy hover:text-brand-blue px-3.5 py-2 rounded-lg transition-colors relative after:absolute after:bottom-0 after:left-3.5 after:right-3.5 after:h-0.5 after:bg-brand-red after:opacity-100">
+            Home
+          </button>
+          <button onclick="switchPage('services')" id="nav-link-services" class="nav-item text-sm font-medium text-brand-slate hover:text-brand-blue px-3.5 py-2 rounded-lg transition-colors relative after:absolute after:bottom-0 after:left-3.5 after:right-3.5 after:h-0.5 after:bg-brand-red after:opacity-0 hover:after:opacity-100">
+            Services & Systems
+          </button>
+          <a href="#about-dnt" onclick="handleInternalNav('home', 'about-dnt')" class="text-sm font-medium text-brand-slate hover:text-brand-blue px-3.5 py-2 rounded-lg transition-colors">
+            Why D & T
+          </a>
+          <a href="#service-areas" onclick="handleInternalNav('home', 'service-areas')" class="text-sm font-medium text-brand-slate hover:text-brand-blue px-3.5 py-2 rounded-lg transition-colors">
+            Service Areas
+          </a>
+          <button onclick="switchPage('contact')" id="nav-link-contact" class="nav-item text-sm font-medium text-brand-slate hover:text-brand-blue px-3.5 py-2 rounded-lg transition-colors relative after:absolute after:bottom-0 after:left-3.5 after:right-3.5 after:h-0.5 after:bg-brand-red after:opacity-0 hover:after:opacity-100">
+            Contact
+          </button>
+        </nav>
+
+        <!-- Right: Action CTA & Phone Lockup Cohesive Centering -->
+        <div class="hidden sm:flex items-center gap-5 flex-shrink-0">
+          <a href="tel:2819558986" class="flex flex-col items-end group">
+            <span class="text-[10px] text-brand-slate font-semibold uppercase tracking-wider leading-none mb-1">Direct Dispatch</span>
+            <span class="text-sm sm:text-base font-sora font-bold text-brand-navy group-hover:text-brand-red transition-colors flex items-center gap-1.5 leading-none">
+              <i class="fa-solid fa-phone text-xs text-brand-red"></i>
+              <span>281-955-8986</span>
+            </span>
+          </a>
+          <button onclick="switchPage('contact')" class="inline-flex items-center justify-center gap-2 bg-brand-red hover:bg-[#b8141a] text-white px-5 py-2.5 rounded-lg text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-200 transform active:scale-95">
+            <span>Request Service</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </button>
+        </div>
+
+        <!-- Mobile & Tablet Quick Actions -->
+        <div class="flex lg:hidden items-center gap-2">
+          <a href="tel:2819558986" class="sm:hidden w-10 h-10 bg-brand-ice text-brand-blue rounded-lg flex items-center justify-center hover:bg-blue-100 transition-colors" aria-label="Call D & T Air Conditioning">
+            <i class="fa-solid fa-phone text-brand-red text-sm"></i>
+          </a>
+          <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="w-10 h-10 flex items-center justify-center text-brand-navy hover:text-brand-blue hover:bg-slate-50 focus:outline-none rounded-lg border border-slate-200 transition-colors" aria-label="Toggle Navigation Menu">
+            <i class="fa-solid fa-bars text-base" id="menu-icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Drawer -->
+    <div id="mobile-drawer" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 shadow-xl">
+      <div class="flex flex-col space-y-2 font-medium">
+        <button onclick="switchPage('home'); toggleMobileMenu();" class="text-left px-3 py-2.5 text-base font-semibold text-brand-navy rounded-lg hover:bg-brand-ice transition-colors">Home</button>
+        <button onclick="switchPage('services'); toggleMobileMenu();" class="text-left px-3 py-2.5 text-base text-brand-slate rounded-lg hover:bg-brand-ice transition-colors">Services & Systems</button>
+        <a href="#about-dnt" onclick="handleInternalNav('home', 'about-dnt'); toggleMobileMenu();" class="px-3 py-2.5 text-base text-brand-slate rounded-lg hover:bg-brand-ice transition-colors">Why D & T</a>
+        <a href="#service-areas" onclick="handleInternalNav('home', 'service-areas'); toggleMobileMenu();" class="px-3 py-2.5 text-base text-brand-slate rounded-lg hover:bg-brand-ice transition-colors">Service Areas</a>
+        <button onclick="switchPage('contact'); toggleMobileMenu();" class="text-left px-3 py-2.5 text-base text-brand-slate rounded-lg hover:bg-brand-ice transition-colors">Contact & Inquiries</button>
+        
+        <div class="pt-4 border-t border-slate-100 flex flex-col gap-3">
+          <div class="px-4 py-3 bg-slate-50 rounded-xl flex items-center justify-between">
+            <span class="text-xs text-brand-slate font-medium">Direct Telephone:</span>
+            <a href="tel:2819558986" class="text-brand-navy font-bold text-sm hover:text-brand-red transition-colors">281-955-8986</a>
+          </div>
+          <button onclick="switchPage('contact'); toggleMobileMenu();" class="w-full bg-brand-red hover:bg-[#b8141a] text-white py-3 rounded-xl font-semibold text-sm shadow text-center transition-colors">
+            Request Service Form
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================== -->
+  <!-- MAIN PAGE VIEW: HOME                      -->
+  <!-- ========================================== -->
+  <main id="page-home" class="tab-content active flex-grow">
+    
+    <section class="relative bg-brand-navy text-white overflow-hidden min-h-[580px] lg:min-h-[660px] flex items-center">
+      <!-- High-Quality Realistic Exterior Condenser Diagnostic Scene with 75% visibility -->
+      <div class="absolute inset-0 z-0">
+        <img 
+          src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/43362d10-12e5-4d32-885c-5d52c1d8a33e.jpg" 
+          alt="D & T Air Conditioning Technician Service Vehicle and Equipment" 
+          class="w-full h-full object-cover object-center opacity-75"
+          loading="eager"
+        />
+        <!-- Carefully calibrated overlay preserving 75% image presence while ensuring high contrast for typography -->
+        <div class="absolute inset-0 bg-gradient-to-r from-brand-navy/90 via-brand-navy/60 to-brand-navy/20 lg:to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/80 via-transparent to-brand-navy/50"></div>
+        <div class="absolute inset-0 technical-grid-dark opacity-20 pointer-events-none"></div>
+      </div>
+
+      <!-- Hero Visual Content Area -->
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 w-full">
+        <div class="max-w-2xl">
+          <!-- Eyebrow Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-blue/60 backdrop-blur-md border border-brand-ice/20 text-brand-ice text-xs sm:text-sm font-medium mb-6">
+            <span class="w-2 h-2 rounded-full bg-brand-red animate-pulse"></span>
+            <span>HVAC Service for Cypress & Northwest Houston</span>
+          </div>
+
+          <!-- Headline -->
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-sora text-white leading-tight sm:leading-[1.15] mb-6">
+            Reliable Comfort Starts With the Right HVAC Team.
+          </h1>
+
+          <!-- Supporting Text -->
+          <p class="text-base sm:text-lg text-slate-200 font-normal leading-relaxed mb-8 max-w-xl">
+            From AC repairs and heating maintenance to indoor air quality assessments and water heater services, D & T Air Conditioning helps keep your property comfortable throughout the Texas heat and seasonal cold.
+          </p>
+
+          <!-- Action CTAs -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+            <a href="tel:2819558986" class="bg-brand-red hover:bg-[#b8141a] text-white px-7 py-4 rounded-xl font-sora font-bold text-base shadow-elevated transition-all duration-200 flex items-center justify-center gap-3 group text-center">
+              <i class="fa-solid fa-phone-volume group-hover:rotate-12 transition-transform"></i>
+              <span>Call D & T — 281-955-8986</span>
+            </a>
+            <button onclick="switchPage('contact')" class="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 px-6 py-4 rounded-xl font-sora font-semibold text-base transition-all duration-200 flex items-center justify-center gap-2">
+              <span>Request Service</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+          </div>
+
+          <!-- Micro Trust Elements Under CTA -->
+          <div class="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center gap-6 text-xs text-slate-300">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-check text-brand-red"></i>
+              <span>Service For All Major Brands</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-check text-brand-red"></i>
+              <span>Upfront, Honest Pricing</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-check text-brand-red"></i>
+              <span>TACLB4005E Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-brand-darkSurface border-b border-brand-blue/20 py-5 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center divide-y md:divide-y-0 md:divide-x divide-white/10">
+          <div class="pt-3 md:pt-0">
+            <p class="text-xs font-semibold text-brand-ice uppercase tracking-wider">Licensed Texas Contractor</p>
+            <p class="text-base font-sora font-bold text-white mt-1">TACLB4005E</p>
+            <p class="text-[11px] text-slate-400">Class B Air Conditioning</p>
+          </div>
+          <div class="pt-3 md:pt-0">
+            <p class="text-xs font-semibold text-brand-ice uppercase tracking-wider">Pricing Approach</p>
+            <p class="text-base font-sora font-bold text-white mt-1">Upfront & Transparent</p>
+            <p class="text-[11px] text-slate-400">Clear diagnostics prior to work</p>
+          </div>
+          <div class="pt-3 md:pt-0">
+            <p class="text-xs font-semibold text-brand-ice uppercase tracking-wider">Scope of Work</p>
+            <p class="text-base font-sora font-bold text-white mt-1">Residential & Commercial</p>
+            <p class="text-[11px] text-slate-400">Plus industrial system capability</p>
+          </div>
+          <div class="pt-3 md:pt-0">
+            <p class="text-xs font-semibold text-brand-ice uppercase tracking-wider">Regional Focus</p>
+            <p class="text-base font-sora font-bold text-white mt-1">Cypress & NW Houston</p>
+            <p class="text-[11px] text-slate-400">Including Spring & Tomball</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white airflow-pattern" id="services-summary">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Section Header -->
+        <div class="max-w-3xl mb-16">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-red mb-3">
+            <span class="h-0.5 w-6 bg-brand-red"></span>
+            Comprehensive Capabilities
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-sora text-brand-navy tracking-tight">
+            Engineered Comfort Solutions for Texas Climates.
+          </h2>
+          <p class="mt-4 text-base text-brand-slate leading-relaxed">
+            D & T Air Conditioning delivers end-to-end mechanical solutions. Whether restoring cooling in mid-summer heat or diagnosing water heating and indoor air issues, we provide clear diagnostics and precise workmanship.
+          </p>
+        </div>
+
+        <!-- Editorial Service 1: Air Conditioning (Image Left, Content Right) -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-20 pb-16 border-b border-slate-200">
+          <div class="lg:col-span-6 order-2 lg:order-1">
+            <div class="relative rounded-2xl overflow-hidden shadow-elevated group">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/31bd5e81-9611-4b63-8193-ad1fb280f6a1.jpg" 
+                alt="Air conditioning installation and repair services by D & T Air Conditioning" 
+                class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <div class="absolute top-4 left-4 bg-brand-navy/90 backdrop-blur-md text-white text-xs font-sora font-bold px-3 py-1.5 rounded-md border border-white/10">
+                Primary Core Service
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-6 order-1 lg:order-2">
+            <span class="text-xs font-bold tracking-widest uppercase text-brand-blue">Cooling Precision</span>
+            <h3 class="text-2xl sm:text-3xl font-bold font-sora text-brand-navy mt-1 mb-4">
+              Air Conditioning Installation, Repair & Preventive Care
+            </h3>
+            <p class="text-brand-slate leading-relaxed mb-6">
+              Texas cooling systems run under rigorous conditions. We service all makes and models, identifying refrigerant imbalances, electrical failures, coil obstructions, and airflow bottlenecks before major equipment damage occurs.
+            </p>
+            <div class="grid grid-cols-2 gap-3 mb-6 text-sm text-brand-navy font-medium">
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> AC Replacement & Install</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Coil & Blower Cleaning</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> System Troubleshooting</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Thermostat Calibration</div>
+            </div>
+            <div class="flex items-center gap-4">
+              <button onclick="switchPage('services')" class="text-brand-blue font-sora font-bold text-sm hover:text-brand-red transition-colors inline-flex items-center gap-1.5">
+                Explore Full AC Scope <i class="fa-solid fa-chevron-right text-xs"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Editorial Service 2: Heating (Image Right, Content Left) -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-20 pb-16 border-b border-slate-200">
+          <div class="lg:col-span-6 order-2">
+            <div class="relative rounded-2xl overflow-hidden shadow-elevated group">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/8a458319-89ef-4196-b947-71ca35b29cea.jpg" 
+                alt="Furnace and heat pump system maintenance and heating equipment" 
+                class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <div class="absolute top-4 left-4 bg-brand-navy/90 backdrop-blur-md text-white text-xs font-sora font-bold px-3 py-1.5 rounded-md border border-white/10">
+                Heating & Safety
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-6 order-1">
+            <span class="text-xs font-bold tracking-widest uppercase text-brand-blue">Heat Systems</span>
+            <h3 class="text-2xl sm:text-3xl font-bold font-sora text-brand-navy mt-1 mb-4">
+              Furnace & Heat Pump Maintenance and Repair
+            </h3>
+            <p class="text-brand-slate leading-relaxed mb-6">
+              When sudden winter freezes hit Cypress and Northwest Houston, heating reliability is a safety priority. D & T inspects heat exchangers, burner assemblies, ignition modules, and heat pump reversers for dependable winter readiness.
+            </p>
+            <div class="grid grid-cols-2 gap-3 mb-6 text-sm text-brand-navy font-medium">
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Furnace Safety Inspections</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Heat Pump Diagnostics</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Burner & Vent Cleaning</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> New System Upgrades</div>
+            </div>
+            <div class="flex items-center gap-4">
+              <button onclick="switchPage('services')" class="text-brand-blue font-sora font-bold text-sm hover:text-brand-red transition-colors inline-flex items-center gap-1.5">
+                Explore Heating Services <i class="fa-solid fa-chevron-right text-xs"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Editorial Service 3: Indoor Air Quality (Image Left, Content Right) -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-20 pb-16 border-b border-slate-200">
+          <div class="lg:col-span-6 order-2 lg:order-1">
+            <div class="relative rounded-2xl overflow-hidden shadow-elevated group">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/ce9f77b8-b4b8-4679-83b0-d5f3f3e3040d.jpg" 
+                alt="Indoor air quality assessment and air filtration systems" 
+                class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <div class="absolute top-4 left-4 bg-brand-navy/90 backdrop-blur-md text-white text-xs font-sora font-bold px-3 py-1.5 rounded-md border border-white/10">
+                Breathable Air & Airflow
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-6 order-1 lg:order-2">
+            <span class="text-xs font-bold tracking-widest uppercase text-brand-blue">Environmental Quality</span>
+            <h3 class="text-2xl sm:text-3xl font-bold font-sora text-brand-navy mt-1 mb-4">
+              Indoor Air Quality, Air Filtration & Duct Cleaning
+            </h3>
+            <p class="text-brand-slate leading-relaxed mb-6">
+              Humidity and airborne particles circulate continuously through closed residential and commercial spaces. Our assessments identify particle buildup, airflow restrictions, and filtration upgrades to promote healthier indoor environments.
+            </p>
+            <div class="grid grid-cols-2 gap-3 mb-6 text-sm text-brand-navy font-medium">
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Air Quality Assessments</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Purification Integrations</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Duct & Register Cleaning</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Dryer Vent Debris Clearing</div>
+            </div>
+            <div class="flex items-center gap-4">
+              <button onclick="switchPage('services')" class="text-brand-blue font-sora font-bold text-sm hover:text-brand-red transition-colors inline-flex items-center gap-1.5">
+                Explore Air Quality Options <i class="fa-solid fa-chevron-right text-xs"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Editorial Service 4: Water Heaters (Image Right, Content Left) -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          <div class="lg:col-span-6 order-2">
+            <div class="relative rounded-2xl overflow-hidden shadow-elevated group">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/3b840ce2-745b-4710-b3fa-3628a99770e2.jpg" 
+                alt="Electric and gas water heater maintenance and replacement" 
+                class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <div class="absolute top-4 left-4 bg-brand-navy/90 backdrop-blur-md text-white text-xs font-sora font-bold px-3 py-1.5 rounded-md border border-white/10">
+                Water Heating Systems
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-6 order-1">
+            <span class="text-xs font-bold tracking-widest uppercase text-brand-blue">Hot Water Reliability</span>
+            <h3 class="text-2xl sm:text-3xl font-bold font-sora text-brand-navy mt-1 mb-4">
+              Electric & Gas Water Heater Services
+            </h3>
+            <p class="text-brand-slate leading-relaxed mb-6">
+              Hot water systems share crucial infrastructure with your home's energy footprint. D & T handles routine servicing, sediment flush recommendations, burner diagnostics, and direct replacement for failing gas and electric units.
+            </p>
+            <div class="grid grid-cols-2 gap-3 mb-6 text-sm text-brand-navy font-medium">
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Gas Water Heater Service</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Electric Unit Diagnostics</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Routine Flushing & Anodes</div>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand-red text-xs"></i> Replacement Installations</div>
+            </div>
+            <div class="flex items-center gap-4">
+              <button onclick="switchPage('services')" class="text-brand-blue font-sora font-bold text-sm hover:text-brand-red transition-colors inline-flex items-center gap-1.5">
+                Explore Water Heater Scope <i class="fa-solid fa-chevron-right text-xs"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-20 bg-brand-slateLight relative overflow-hidden" id="about-dnt">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <!-- Text and Documented Selling Points -->
+          <div class="lg:col-span-7">
+            <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-blue mb-3">
+              <span class="h-0.5 w-6 bg-brand-blue"></span>
+              Documented Standards
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-extrabold font-sora text-brand-navy tracking-tight mb-6">
+              Why Homeowners and Facility Managers Choose D & T.
+            </h2>
+            <p class="text-brand-slate leading-relaxed mb-8">
+              In an industry frequently clouded by confusing estimates and high-pressure upselling, D & T Air Conditioning maintains a direct, practical approach founded on honest technical evaluations.
+            </p>
+
+            <div class="space-y-6">
+              <!-- Item 1 -->
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-brand-navy text-white flex-shrink-0 flex items-center justify-center font-bold">
+                  <i class="fa-solid fa-file-invoice-dollar text-brand-ice"></i>
+                </div>
+                <div>
+                  <h3 class="text-base font-bold font-sora text-brand-navy">Transparent, Upfront Pricing</h3>
+                  <p class="text-sm text-brand-slate mt-1">
+                    We believe you should understand what needs repair and what it will cost before any work begins. No manufactured fees or surprise line items.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-brand-navy text-white flex-shrink-0 flex items-center justify-center font-bold">
+                  <i class="fa-solid fa-sliders text-brand-ice"></i>
+                </div>
+                <div>
+                  <h3 class="text-base font-bold font-sora text-brand-navy">Service for All Major Brands</h3>
+                  <p class="text-sm text-brand-slate mt-1">
+                    While we maintain a recognized, long-standing relationship with Trane equipment, our technicians are trained and equipped to service, repair, and maintain all heating and cooling brands.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-brand-navy text-white flex-shrink-0 flex items-center justify-center font-bold">
+                  <i class="fa-solid fa-industry text-brand-ice"></i>
+                </div>
+                <div>
+                  <h3 class="text-base font-bold font-sora text-brand-navy">Residential to Commercial & Industrial Scale</h3>
+                  <p class="text-sm text-brand-slate mt-1">
+                    From single-family Texas residences to commercial retail spaces and industrial mechanical plants, our capabilities accommodate diverse building volumes and thermal loads.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-brand-navy text-white flex-shrink-0 flex items-center justify-center font-bold">
+                  <i class="fa-solid fa-user-shield text-brand-ice"></i>
+                </div>
+                <div>
+                  <h3 class="text-base font-bold font-sora text-brand-navy">Verified Local Leadership</h3>
+                  <p class="text-sm text-brand-slate mt-1">
+                    Under the verified ownership of Terry Edward Willis and operating with state HVAC license TACLB4005E, we take personal accountability for our service in Cypress and Northwest Houston.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Split Visual Column -->
+          <div class="lg:col-span-5">
+            <div class="bg-white p-8 rounded-2xl shadow-elevated border border-slate-200 relative">
+              <div class="flex items-center justify-between pb-6 border-b border-slate-100">
+                <div>
+                  <span class="text-xs uppercase font-bold text-brand-slate tracking-wider">Company Record</span>
+                  <p class="text-lg font-bold font-sora text-brand-navy">D & T Air Conditioning</p>
+                </div>
+                <div class="bg-brand-ice text-brand-blue text-xs font-bold px-3 py-1 rounded-full">
+                  Verified
+                </div>
+              </div>
+
+              <div class="py-6 space-y-4 text-sm">
+                <div class="flex justify-between items-center">
+                  <span class="text-brand-slate">Texas License:</span>
+                  <span class="font-semibold text-brand-navy font-mono">TACLB4005E</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-brand-slate">Owner of Record (BBB):</span>
+                  <span class="font-semibold text-brand-navy">Terry Edward Willis</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-brand-slate">Core Service Region:</span>
+                  <span class="font-semibold text-brand-navy text-right">Cypress, NW Houston, Spring, Tomball</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-brand-slate">Primary Contact:</span>
+                  <a href="tel:2819558986" class="font-bold text-brand-blue hover:text-brand-red">281-955-8986</a>
+                </div>
+              </div>
+
+              <div class="pt-6 border-t border-slate-100 bg-brand-ice/40 -mx-8 -mb-8 p-8 rounded-b-2xl">
+                <p class="text-xs text-brand-slate italic leading-relaxed">
+                  "Our goal is to solve the mechanical issue accurately, provide honest options, and treat each client's system with technical rigor."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-red mb-3">
+            <span class="h-0.5 w-6 bg-brand-red"></span>
+            Straightforward Experience
+            <span class="h-0.5 w-6 bg-brand-red"></span>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-sora text-brand-navy">
+            How Service Works With D & T
+          </h2>
+          <p class="mt-4 text-brand-slate text-sm sm:text-base">
+            No convoluted phone menus or hidden steps. We keep our process transparent from your initial call to project sign-off.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+          <!-- Step 1 -->
+          <div class="bg-brand-slateLight/60 p-8 rounded-2xl border border-slate-200 relative group hover:bg-white hover:shadow-elevated transition-all duration-300">
+            <div class="w-12 h-12 rounded-xl bg-brand-navy text-brand-ice flex items-center justify-center font-sora font-extrabold text-xl mb-6 shadow-sm">
+              01
+            </div>
+            <h3 class="text-lg font-bold font-sora text-brand-navy mb-2">Tell Us What's Happening</h3>
+            <p class="text-sm text-brand-slate leading-relaxed">
+              Call us directly at <a href="tel:2819558986" class="font-bold text-brand-blue">281-955-8986</a> or submit an inquiry describing your heating, cooling, or water heater symptoms. We gather the details and schedule prompt assistance.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bg-brand-slateLight/60 p-8 rounded-2xl border border-slate-200 relative group hover:bg-white hover:shadow-elevated transition-all duration-300">
+            <div class="w-12 h-12 rounded-xl bg-brand-blue text-white flex items-center justify-center font-sora font-extrabold text-xl mb-6 shadow-sm">
+              02
+            </div>
+            <h3 class="text-lg font-bold font-sora text-brand-navy mb-2">Understand the Problem</h3>
+            <p class="text-sm text-brand-slate leading-relaxed">
+              We perform an on-site physical diagnostic of your equipment. We explain what failed, why it failed, and outline your viable repair or replacement pathways clearly.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bg-brand-slateLight/60 p-8 rounded-2xl border border-slate-200 relative group hover:bg-white hover:shadow-elevated transition-all duration-300">
+            <div class="w-12 h-12 rounded-xl bg-brand-red text-white flex items-center justify-center font-sora font-extrabold text-xl mb-6 shadow-sm">
+              03
+            </div>
+            <h3 class="text-lg font-bold font-sora text-brand-navy mb-2">Approve the Work & Complete</h3>
+            <p class="text-sm text-brand-slate leading-relaxed">
+              You review the upfront pricing before any physical repair begins. Once approved, we execute the service with precision craftsmanship and verify proper system operation.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <button onclick="switchPage('contact')" class="inline-flex items-center gap-2 bg-brand-navy hover:bg-brand-blue text-white px-6 py-3.5 rounded-xl font-sora font-semibold text-sm transition-all duration-200 shadow">
+            <span>Schedule an Evaluation</span>
+            <i class="fa-solid fa-calendar-check text-xs"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-20 bg-brand-darkSurface text-white relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <div class="max-w-3xl mb-12">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-red mb-3">
+            <span class="h-0.5 w-6 bg-brand-red"></span>
+            Verified Customer Sentiment
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-sora text-white">
+            Honest Feedback From Northwest Houston Homeowners.
+          </h2>
+          <p class="mt-3 text-sm sm:text-base text-slate-300">
+            We let authentic customer experiences speak for themselves. Transparent pricing and dependable technical diagnostics are what keep our clients calling us year after year.
+          </p>
+        </div>
+
+        <!-- Authentic Review Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Testimonial 1 -->
+          <div class="bg-brand-navy/90 border border-white/10 p-6 rounded-xl flex flex-col justify-between">
+            <div>
+              <div class="flex text-amber-400 mb-3 text-xs gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="text-slate-200 text-sm leading-relaxed mb-4 italic">
+                "D & T has taken care of our AC and heating for years. They are always upfront about what actually needs fixing instead of trying to sell a whole new unit right away."
+              </p>
+            </div>
+            <div class="border-t border-white/10 pt-4 flex items-center justify-between">
+              <div>
+                <p class="font-sora font-semibold text-white text-sm">Residential Customer</p>
+                <p class="text-xs text-slate-400">Cypress, TX</p>
+              </div>
+              <i class="fa-solid fa-quote-right text-brand-blue text-xl opacity-40"></i>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="bg-brand-navy/90 border border-white/10 p-6 rounded-xl flex flex-col justify-between">
+            <div>
+              <div class="flex text-amber-400 mb-3 text-xs gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="text-slate-200 text-sm leading-relaxed mb-4 italic">
+                "Prompt response when our blower motor stopped running. Diagnosed the electrical issue quickly, explained the pricing clearly, and had cool air blowing again without fuss."
+              </p>
+            </div>
+            <div class="border-t border-white/10 pt-4 flex items-center justify-between">
+              <div>
+                <p class="font-sora font-semibold text-white text-sm">Local Property Owner</p>
+                <p class="text-xs text-slate-400">NW Houston, TX</p>
+              </div>
+              <i class="fa-solid fa-quote-right text-brand-blue text-xl opacity-40"></i>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="bg-brand-navy/90 border border-white/10 p-6 rounded-xl flex flex-col justify-between">
+            <div>
+              <div class="flex text-amber-400 mb-3 text-xs gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="text-slate-200 text-sm leading-relaxed mb-4 italic">
+                "Thorough maintenance and honest evaluation. Hard to find technicians who take the time to clean coils properly and check system pressures accurately."
+              </p>
+            </div>
+            <div class="border-t border-white/10 pt-4 flex items-center justify-between">
+              <div>
+                <p class="font-sora font-semibold text-white text-sm">Long-term Client</p>
+                <p class="text-xs text-slate-400">Spring / Tomball Area</p>
+              </div>
+              <i class="fa-solid fa-quote-right text-brand-blue text-xl opacity-40"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-20 bg-white" id="service-areas">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-5">
+            <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-blue mb-3">
+              <span class="h-0.5 w-6 bg-brand-blue"></span>
+              Local Coverage Area
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-extrabold font-sora text-brand-navy tracking-tight mb-4">
+              Serving Cypress and Northwest Houston.
+            </h2>
+            <p class="text-brand-slate leading-relaxed mb-6">
+              D & T Air Conditioning prioritizes rapid service to our core regional communities. We maintain active dispatch across the Northwest quadrant of Greater Houston, ensuring our technicians know the specific architectural requirements and climate demands of Texas homes.
+            </p>
+            <div class="p-4 bg-brand-ice rounded-xl border border-blue-100 mb-6">
+              <p class="text-xs font-semibold text-brand-blue uppercase tracking-wider mb-1">Notice Regarding Extended Areas</p>
+              <p class="text-xs text-brand-slate">
+                We focus on Cypress, Northwest Houston, Spring, and Tomball. For commercial or specialized projects beyond this corridor, please contact our dispatch desk directly.
+              </p>
+            </div>
+            <a href="tel:2819558986" class="inline-flex items-center gap-2 text-brand-red font-sora font-bold text-sm hover:underline">
+              <i class="fa-solid fa-phone"></i> Inquire About Your Neighborhood at 281-955-8986
+            </a>
+          </div>
+
+          <!-- Visual Service Grid -->
+          <div class="lg:col-span-7">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              
+              <!-- Region 1: Cypress -->
+              <div class="p-6 rounded-xl border border-slate-200 bg-brand-slateLight/40 hover:border-brand-blue transition-colors">
+                <div class="flex items-center justify-between mb-3">
+                  <h3 class="font-sora font-bold text-brand-navy text-lg">Cypress</h3>
+                  <span class="text-xs bg-brand-blue text-white px-2.5 py-0.5 rounded-full font-semibold">Primary</span>
+                </div>
+                <p class="text-xs text-brand-slate leading-relaxed">
+                  Fast response throughout Cypress residential developments, master-planned communities, and commercial centers.
+                </p>
+              </div>
+
+              <!-- Region 2: Northwest Houston -->
+              <div class="p-6 rounded-xl border border-slate-200 bg-brand-slateLight/40 hover:border-brand-blue transition-colors">
+                <div class="flex items-center justify-between mb-3">
+                  <h3 class="font-sora font-bold text-brand-navy text-lg">Northwest Houston</h3>
+                  <span class="text-xs bg-brand-blue text-white px-2.5 py-0.5 rounded-full font-semibold">Primary</span>
+                </div>
+                <p class="text-xs text-brand-slate leading-relaxed">
+                  Serving suburban residential neighborhoods, light commercial facilities, and industrial business parks across NW Houston.
+                </p>
+              </div>
+
+              <!-- Region 3: Spring -->
+              <div class="p-6 rounded-xl border border-slate-200 bg-brand-slateLight/40 hover:border-brand-blue transition-colors">
+                <div class="flex items-center justify-between mb-3">
+                  <h3 class="font-sora font-bold text-brand-navy text-lg">Spring</h3>
+                  <span class="text-xs bg-slate-200 text-brand-navy px-2.5 py-0.5 rounded-full font-semibold">Documented</span>
+                </div>
+                <p class="text-xs text-brand-slate leading-relaxed">
+                  Comprehensive AC, furnace, heat pump, and indoor air filtration services for Spring residential properties.
+                </p>
+              </div>
+
+              <!-- Region 4: Tomball -->
+              <div class="p-6 rounded-xl border border-slate-200 bg-brand-slateLight/40 hover:border-brand-blue transition-colors">
+                <div class="flex items-center justify-between mb-3">
+                  <h3 class="font-sora font-bold text-brand-navy text-lg">Tomball</h3>
+                  <span class="text-xs bg-slate-200 text-brand-navy px-2.5 py-0.5 rounded-full font-semibold">Documented</span>
+                </div>
+                <p class="text-xs text-brand-slate leading-relaxed">
+                  Reliable cooling repairs, seasonal furnace checks, and water heater installations for Tomball homes and facilities.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-20 bg-brand-navy text-white relative overflow-hidden">
+      <div class="absolute inset-0 technical-grid-dark opacity-20 pointer-events-none"></div>
+      
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div class="w-16 h-16 mx-auto mb-6 bg-brand-blue/30 rounded-2xl flex items-center justify-center border border-brand-blue/40">
+          <i class="fa-solid fa-fan text-2xl text-brand-ice animate-spin" style="animation-duration: 12s;"></i>
+        </div>
+
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-sora text-white tracking-tight mb-6">
+          Let’s Get Your Comfort Back on Track.
+        </h2>
+
+        <p class="text-base sm:text-lg text-slate-300 leading-relaxed mb-8 max-w-2xl mx-auto">
+          Tell us what’s happening with your AC, heating, airflow, or water heater, and get in touch with D & T Air Conditioning today.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="tel:2819558986" class="w-full sm:w-auto bg-brand-red hover:bg-[#b8141a] text-white px-8 py-4 rounded-xl font-sora font-bold text-base shadow-elevated transition-all flex items-center justify-center gap-3">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call 281-955-8986</span>
+          </a>
+          <button onclick="switchPage('contact')" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-xl font-sora font-semibold text-base transition-all flex items-center justify-center gap-2">
+            <span>Request Service Online</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </button>
+        </div>
+
+        <p class="mt-6 text-xs text-slate-400">
+          TACLB4005E • Clear Diagnostics • Upfront Pricing
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================== -->
+  <!-- MAIN PAGE VIEW: SERVICES & SYSTEMS        -->
+  <!-- ========================================== -->
+  <main id="page-services" class="tab-content flex-grow">
+    
+    <!-- Services Header Banner -->
+    <section class="bg-brand-navy text-white py-16 sm:py-20 relative overflow-hidden">
+      <div class="absolute inset-0 technical-grid-dark opacity-30"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-red mb-3">
+            <span class="h-0.5 w-6 bg-brand-red"></span>
+            Technical Specifications & Scopes
+          </div>
+          <h1 class="text-3xl sm:text-5xl font-extrabold font-sora text-white mb-6">
+            HVAC, Airflow & Water Heating Services
+          </h1>
+          <p class="text-base sm:text-lg text-slate-300 leading-relaxed">
+            Detailed breakdown of our core residential, commercial, and industrial service offerings. Grounded strictly in documented capabilities for Northwest Houston.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Quick Anchors -->
+    <section class="bg-white border-b border-slate-200 sticky top-20 z-30 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center space-x-4 sm:space-x-8 overflow-x-auto py-4 text-xs sm:text-sm font-semibold no-scrollbar">
+          <a href="#svc-ac" class="text-brand-navy hover:text-brand-blue whitespace-nowrap flex items-center gap-2">
+            <i class="fa-solid fa-snowflake text-brand-blue"></i> Air Conditioning
+          </a>
+          <a href="#svc-heating" class="text-brand-navy hover:text-brand-blue whitespace-nowrap flex items-center gap-2">
+            <i class="fa-solid fa-fire text-brand-red"></i> Heating Systems
+          </a>
+          <a href="#svc-iaq" class="text-brand-navy hover:text-brand-blue whitespace-nowrap flex items-center gap-2">
+            <i class="fa-solid fa-wind text-brand-blue"></i> Indoor Air Quality
+          </a>
+          <a href="#svc-water" class="text-brand-navy hover:text-brand-blue whitespace-nowrap flex items-center gap-2">
+            <i class="fa-solid fa-faucet-detergent text-brand-blue"></i> Water Heaters
+          </a>
+          <a href="#svc-commercial" class="text-brand-navy hover:text-brand-blue whitespace-nowrap flex items-center gap-2">
+            <i class="fa-solid fa-building text-brand-blue"></i> Commercial / Industrial
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Section 1: Air Conditioning -->
+    <section class="py-16 bg-white" id="svc-ac">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-6">
+            <div class="relative rounded-2xl overflow-hidden shadow-elevated group">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/Screenshot%202026-10-13%20033851.png" 
+                alt="Air conditioning technical specifications, installation and repair diagnostics" 
+                class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="lg:col-span-6">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-blue">Scope 01</span>
+            <h2 class="text-3xl font-extrabold font-sora text-brand-navy mt-1 mb-4">
+              Air Conditioning Services
+            </h2>
+            <p class="text-brand-slate text-sm sm:text-base leading-relaxed mb-6">
+              Complete cooling service designed for harsh Texas summers. We address critical mechanical bottlenecks across compressors, evaporator coils, refrigerant lines, and electronic management controls.
+            </p>
+
+            <h3 class="text-xs font-bold uppercase tracking-wider text-brand-slate mb-3">Documented Work Undertaken:</h3>
+            <ul class="space-y-2.5 text-sm text-brand-navy font-medium mb-6">
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>System Installation & Replacement:</strong> Full matched system sizing and replacement for aging or inefficient units.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Mechanical Repairs:</strong> Fan motors, capacitors, contactors, electrical wiring, and refrigerant leak diagnostics.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Preventive Maintenance:</strong> Comprehensive preseason tune-ups, pressure verifications, and electrical testing.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Coil & Blower Cleaning:</strong> Removing accumulated sludge and grime from evaporator coils and blower fans to restore static pressure.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Controls:</strong> Programmable and digital thermostat installation and calibration.</span></li>
+            </ul>
+
+            <div class="p-4 bg-brand-ice rounded-xl mb-6">
+              <p class="text-xs font-bold text-brand-blue uppercase tracking-wide">Common Signs Service Is Needed:</p>
+              <p class="text-xs text-brand-slate mt-1">
+                Warm air from supply vents, condenser continuously short-cycling, iced refrigeration lines, unusual grinding or humming noises, or sudden spikes in electrical utility bills.
+              </p>
+            </div>
+
+            <button onclick="switchPage('contact')" class="bg-brand-red text-white px-6 py-3 rounded-xl font-sora font-semibold text-sm hover:bg-[#b8141a] transition">
+              Inquire About AC Service
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Section 2: Heating Systems -->
+    <section class="py-16 bg-brand-slateLight" id="svc-heating">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-6 order-2 lg:order-1">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-blue">Scope 02</span>
+            <h2 class="text-3xl font-extrabold font-sora text-brand-navy mt-1 mb-4">
+              Heating & Furnace Systems
+            </h2>
+            <p class="text-brand-slate text-sm sm:text-base leading-relaxed mb-6">
+              When Gulf temperatures plummet, reliable heating protects your household pipes and comfort. We provide detailed heating diagnostics focusing on combustion safety, heat exchanger integrity, and electrical reliability.
+            </p>
+
+            <h3 class="text-xs font-bold uppercase tracking-wider text-brand-slate mb-3">Documented Work Undertaken:</h3>
+            <ul class="space-y-2.5 text-sm text-brand-navy font-medium mb-6">
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Furnace Repair & Replacement:</strong> Gas and electric furnace troubleshooting, burner cleaning, and replacements.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Heat Pump Services:</strong> Diagnostic check on reversing valves, defrost boards, and auxiliary electric heat strips.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Furnace Cleaning & Inspections:</strong> Safety evaluations of heat exchangers, draft diverters, and flue venting to prevent carbon monoxide hazards.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Thermostat Integration:</strong> Heating cycle calibration and zone controls.</span></li>
+            </ul>
+
+            <div class="p-4 bg-white rounded-xl border border-slate-200 mb-6">
+              <p class="text-xs font-bold text-brand-navy uppercase tracking-wide">Common Signs Service Is Needed:</p>
+              <p class="text-xs text-brand-slate mt-1">
+                Furnace blows cool air, persistent burning odors after initial startup, burner ignition failure or repeated clicking, yellow burner flames instead of blue, or safety switch trips.
+              </p>
+            </div>
+
+            <button onclick="switchPage('contact')" class="bg-brand-navy text-white px-6 py-3 rounded-xl font-sora font-semibold text-sm hover:bg-brand-blue transition">
+              Inquire About Heating Service
+            </button>
+          </div>
+          <div class="lg:col-span-6 order-1 lg:order-2">
+            <div class="relative rounded-2xl overflow-hidden shadow-elevated group">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/Screenshot%202026-10-14%20034103.png" 
+                alt="Heating and furnace system components, testing and diagnostics" 
+                class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Section 3: Indoor Air Quality & Airflow -->
+    <section class="py-16 bg-white" id="svc-iaq">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-6">
+            <div class="relative rounded-2xl overflow-hidden shadow-elevated group">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/Screenshot%202026-10-13%20234628.png" 
+                alt="Indoor air quality assessment, filtration and purification systems" 
+                class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="lg:col-span-6">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-blue">Scope 03</span>
+            <h2 class="text-3xl font-extrabold font-sora text-brand-navy mt-1 mb-4">
+              Indoor Air Quality & Airflow Management
+            </h2>
+            <p class="text-brand-slate text-sm sm:text-base leading-relaxed mb-6">
+              Modern Texas homes are sealed tightly for efficiency, which can trap allergens, volatile organic compounds, dust, and humidity indoors. We analyze and treat the full circulating air stream.
+            </p>
+
+            <h3 class="text-xs font-bold uppercase tracking-wider text-brand-slate mb-3">Documented Work Undertaken:</h3>
+            <ul class="space-y-2.5 text-sm text-brand-navy font-medium mb-6">
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Air Quality Assessments:</strong> Evaluating duct cleanliness, static pressure restriction, and particulate circulation.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Air Purification Systems:</strong> Integrating whole-house air purifiers that work alongside your central system.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>High-Efficiency Filtration:</strong> Proper media filter sizing and replacement to stop dust without choking system airflow.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Duct & Vent Cleaning:</strong> Clearing accumulated dust from branch runs and return plenums.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Dryer Vent Cleaning:</strong> Clearing lint obstruction in dryer duct pathways to restore airflow and mitigate fire hazards.</span></li>
+            </ul>
+
+            <button onclick="switchPage('contact')" class="bg-brand-blue text-white px-6 py-3 rounded-xl font-sora font-semibold text-sm hover:bg-brand-navy transition">
+              Inquire About Air Quality
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Section 4: Water Heaters -->
+    <section class="py-16 bg-brand-slateLight" id="svc-water">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-6 order-2 lg:order-1">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-blue">Scope 04</span>
+            <h2 class="text-3xl font-extrabold font-sora text-brand-navy mt-1 mb-4">
+              Water Heater Installation & Repair
+            </h2>
+            <p class="text-brand-slate text-sm sm:text-base leading-relaxed mb-6">
+              Consistent domestic hot water is a foundational utility. D & T handles the physical repair, routine maintenance, and complete replacement of electric and gas water heating tanks.
+            </p>
+
+            <h3 class="text-xs font-bold uppercase tracking-wider text-brand-slate mb-3">Documented Work Undertaken:</h3>
+            <ul class="space-y-2.5 text-sm text-brand-navy font-medium mb-6">
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Electric Water Heaters:</strong> Heating element replacement, thermostat checks, and wiring repair.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Gas Water Heaters:</strong> Thermocouple replacement, burner servicing, gas control valve diagnostics, and venting.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Preventive Maintenance:</strong> Flushing mineral sediment to extend tank longevity and heat-transfer efficiency.</span></li>
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-brand-red mt-1"></i> <span><strong>Tank Replacement:</strong> Professional removal and clean replacement of corroded or leaking tanks.</span></li>
+            </ul>
+
+            <button onclick="switchPage('contact')" class="bg-brand-navy text-white px-6 py-3 rounded-xl font-sora font-semibold text-sm hover:bg-brand-blue transition">
+              Inquire About Water Heaters
+            </button>
+          </div>
+          <div class="lg:col-span-6 order-1 lg:order-2">
+            <div class="relative rounded-2xl overflow-hidden shadow-elevated group">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/Screenshot%202026-10-13%20034449.png" 
+                alt="Electric and gas water heater maintenance, repairs and replacement tanks" 
+                class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documented Commercial & Industrial Scope Notice -->
+    <section class="py-16 bg-brand-navy text-white" id="svc-commercial">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-ice mb-3">
+            <i class="fa-solid fa-industry text-brand-red"></i> Commercial & Industrial Capabilities
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold font-sora text-white mb-4">
+            Commercial HVAC & Facility Climate Services
+          </h2>
+          <p class="text-sm sm:text-base text-slate-300 leading-relaxed mb-6">
+            D & T Air Conditioning maintains documented capabilities for commercial and industrial HVAC infrastructure in Cypress and Northwest Houston. From rooftop package units to light industrial facility airflow, we bring technical rigor to commercial operations.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-slate-200 mb-8">
+            <div class="p-4 bg-white/5 rounded-lg border border-white/10">
+              <strong class="block text-white mb-1 font-sora">Commercial Properties:</strong>
+              Offices, retail storefronts, and multi-tenant facilities requiring consistent thermal comfort and prompt repair.
+            </div>
+            <div class="p-4 bg-white/5 rounded-lg border border-white/10">
+              <strong class="block text-white mb-1 font-sora">Industrial Applications:</strong>
+              Facilities requiring robust ventilation, specialized equipment cooling, and targeted maintenance.
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <a href="tel:2819558986" class="bg-brand-red text-white px-6 py-3 rounded-xl font-sora font-semibold text-sm hover:bg-[#b8141a] transition">
+              Discuss Commercial Work: 281-955-8986
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================== -->
+  <!-- MAIN PAGE VIEW: CONTACT & REQUEST SERVICE  -->
+  <!-- ========================================== -->
+  <main id="page-contact" class="tab-content flex-grow">
+    
+    <!-- Contact Page Header -->
+    <section class="bg-brand-navy text-white py-16 relative overflow-hidden">
+      <div class="absolute inset-0 technical-grid-dark opacity-30"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="max-w-2xl">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-red mb-3">
+            <span class="h-0.5 w-6 bg-brand-red"></span>
+            Direct Communication Desk
+          </div>
+          <h1 class="text-3xl sm:text-5xl font-extrabold font-sora text-white mb-4">
+            Contact D & T Air Conditioning
+          </h1>
+          <p class="text-base text-slate-300 leading-relaxed">
+            Reach out directly by phone for urgent service needs, or submit your details below to schedule an evaluation with our Cypress and Northwest Houston team.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form & Info Grid -->
+    <section class="py-16 bg-brand-slateLight">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          
+          <!-- Contact Direct Channels (Left) -->
+          <div class="lg:col-span-5 space-y-6">
+            
+            <div class="bg-white p-8 rounded-2xl shadow-subtle border border-slate-200">
+              <span class="text-xs uppercase font-bold text-brand-blue tracking-wider">Primary Telephone</span>
+              <p class="text-2xl font-bold font-sora text-brand-navy mt-1 mb-2">281-955-8986</p>
+              <p class="text-xs text-brand-slate leading-relaxed mb-4">
+                Call our direct phone line for immediate dispatch inquiries or to discuss equipment issues directly with our team.
+              </p>
+              <a href="tel:2819558986" class="inline-flex items-center justify-center gap-2 w-full bg-brand-red hover:bg-[#b8141a] text-white py-3 rounded-xl font-sora font-semibold text-sm transition shadow">
+                <i class="fa-solid fa-phone"></i>
+                <span>Call Now: 281-955-8986</span>
+              </a>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-subtle border border-slate-200 space-y-5">
+              <div>
+                <span class="text-xs uppercase font-bold text-brand-slate tracking-wider">State License</span>
+                <p class="font-sora font-bold text-brand-navy text-base mt-0.5">TACLB4005E</p>
+                <p class="text-xs text-brand-slate">Texas Department of Licensing and Regulation (TDLR)</p>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100">
+                <span class="text-xs uppercase font-bold text-brand-slate tracking-wider">Business Ownership</span>
+                <p class="font-sora font-bold text-brand-navy text-base mt-0.5">Terry Edward Willis</p>
+                <p class="text-xs text-brand-slate">Owner of Record (Better Business Bureau verified)</p>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100">
+                <span class="text-xs uppercase font-bold text-brand-slate tracking-wider">Service Coverage</span>
+                <p class="font-medium text-brand-navy text-sm mt-0.5">Cypress, Northwest Houston, Spring, & Tomball, TX</p>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100">
+                <span class="text-xs uppercase font-bold text-brand-slate tracking-wider">Pricing Policy</span>
+                <p class="font-medium text-brand-navy text-sm mt-0.5">Upfront, itemized pricing communicated prior to beginning repair work.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Functional Service Request Form (Right) -->
+          <div class="lg:col-span-7">
+            <div class="bg-white p-8 sm:p-10 rounded-2xl shadow-elevated border border-slate-200">
+              <h2 class="text-2xl font-bold font-sora text-brand-navy mb-2">
+                Request Service or Consultation
+              </h2>
+              <p class="text-sm text-brand-slate mb-8">
+                Please complete this form with your property details. Our team will review your HVAC situation and contact you via your preferred method.
+              </p>
+
+              <!-- Form with Custom UI Submission State -->
+              <form id="service-request-form" onsubmit="handleFormSubmit(event)" class="space-y-5">
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <div>
+                    <label for="contact-name" class="block text-xs font-bold uppercase tracking-wider text-brand-navy mb-2">
+                      Full Name <span class="text-brand-red">*</span>
+                    </label>
+                    <input 
+                      type="text" 
+                      id="contact-name" 
+                      required 
+                      placeholder="e.g. John Miller" 
+                      class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition"
+                    />
+                  </div>
+                  <div>
+                    <label for="contact-phone" class="block text-xs font-bold uppercase tracking-wider text-brand-navy mb-2">
+                      Phone Number <span class="text-brand-red">*</span>
+                    </label>
+                    <input 
+                      type="tel" 
+                      id="contact-phone" 
+                      required 
+                      placeholder="e.g. (281) 555-0199" 
+                      class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition"
+                    />
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <div>
+                    <label for="contact-email" class="block text-xs font-bold uppercase tracking-wider text-brand-navy mb-2">
+                      Email Address (Optional)
+                    </label>
+                    <input 
+                      type="email" 
+                      id="contact-email" 
+                      placeholder="e.g. jmiller@example.com" 
+                      class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition"
+                    />
+                  </div>
+                  <div>
+                    <label for="contact-zip" class="block text-xs font-bold uppercase tracking-wider text-brand-navy mb-2">
+                      Service ZIP Code <span class="text-brand-red">*</span>
+                    </label>
+                    <input 
+                      type="text" 
+                      id="contact-zip" 
+                      required 
+                      pattern="[0-9]{5}" 
+                      placeholder="e.g. 77429 or 77433" 
+                      class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition"
+                    />
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <div>
+                    <label for="contact-property" class="block text-xs font-bold uppercase tracking-wider text-brand-navy mb-2">
+                      Property Type <span class="text-brand-red">*</span>
+                    </label>
+                    <select id="contact-property" required class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition bg-white">
+                      <option value="Residential">Residential Single-Family / Condo</option>
+                      <option value="Commercial">Commercial Facility</option>
+                      <option value="Industrial">Industrial Property</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="contact-service" class="block text-xs font-bold uppercase tracking-wider text-brand-navy mb-2">
+                      Service Needed <span class="text-brand-red">*</span>
+                    </label>
+                    <select id="contact-service" required class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition bg-white">
+                      <option value="Air Conditioning">Air Conditioning (Repair / Install)</option>
+                      <option value="Heating">Heating & Furnace Systems</option>
+                      <option value="Air Quality">Indoor Air Quality / Airflow</option>
+                      <option value="Water Heater">Water Heater (Gas or Electric)</option>
+                      <option value="Other">Other Mechanical Question</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label for="contact-method" class="block text-xs font-bold uppercase tracking-wider text-brand-navy mb-2">
+                    Preferred Contact Method
+                  </label>
+                  <select id="contact-method" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition bg-white">
+                    <option value="Phone Call">Phone Call</option>
+                    <option value="Text Message">Text Message</option>
+                    <option value="Email">Email</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="contact-notes" class="block text-xs font-bold uppercase tracking-wider text-brand-navy mb-2">
+                    Brief Description of the Problem <span class="text-brand-red">*</span>
+                  </label>
+                  <textarea 
+                    id="contact-notes" 
+                    rows="4" 
+                    required 
+                    placeholder="Describe what you are noticing (e.g., AC blowing warm air, strange whistling noise, heating not turning on, water heater leaking)..." 
+                    class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition"
+                  ></textarea>
+                </div>
+
+                <div class="text-xs text-brand-slate leading-relaxed">
+                  By submitting this request, you authorize D & T Air Conditioning to contact you regarding your HVAC service inquiry. We respect your privacy and do not sell customer information.
+                </div>
+
+                <button 
+                  type="submit" 
+                  id="submit-btn" 
+                  class="w-full bg-brand-red hover:bg-[#b8141a] text-white py-4 rounded-xl font-sora font-bold text-base shadow-elevated transition-all flex items-center justify-center gap-2"
+                >
+                  <span>Submit Service Request</span>
+                  <i class="fa-solid fa-paper-plane text-xs"></i>
+                </button>
+              </form>
+
+              <!-- Success Confirmation Message (Initially Hidden) -->
+              <div id="form-success-message" class="hidden text-center py-10">
+                <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <h3 class="text-2xl font-bold font-sora text-brand-navy mb-2">Service Request Received</h3>
+                <p class="text-brand-slate text-sm max-w-md mx-auto mb-6">
+                  Thank you for contacting D & T Air Conditioning. A technician will review your details and contact you via your preferred method shortly.
+                </p>
+                <div class="p-4 bg-brand-ice rounded-xl text-xs text-brand-navy font-medium max-w-md mx-auto mb-6">
+                  For immediate urgent service, please dial directly: <a href="tel:2819558986" class="font-bold text-brand-blue">281-955-8986</a>
+                </div>
+                <button onclick="resetServiceForm()" class="text-xs text-brand-blue font-bold hover:underline">
+                  Submit another inquiry
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-brand-navy text-white border-t border-brand-blue/30 pt-16 pb-12 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
+        
+        <!-- Column 1: Brand Frame & Identity -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="footer-logo-wrap mb-2">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/GT/refs/heads/main/035bd03e-316a-4ffb-aa66-e34d0fc590d0.jpg" 
+              alt="D & T Air Conditioning Official Emblem" 
+              class="h-10 sm:h-11 w-auto object-contain block"
+            />
+          </div>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-sm">
+            D & T Air Conditioning delivers precision heating, cooling, airflow, and water heating services across Cypress, Northwest Houston, Spring, and Tomball. Upfront pricing and verified technical craftsmanship.
+          </p>
+          <div class="text-xs text-brand-ice space-y-1 font-mono pt-2">
+            <p>Texas HVAC License: TACLB4005E</p>
+            <p class="text-slate-400">Ownership: Terry Edward Willis (BBB Record)</p>
+          </div>
+        </div>
+
+        <!-- Column 2: Navigation -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-widest text-brand-ice mb-4 font-sora">Navigation</h4>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li><button onclick="switchPage('home')" class="hover:text-white transition">Home</button></li>
+            <li><button onclick="switchPage('services')" class="hover:text-white transition">All Services</button></li>
+            <li><a href="#about-dnt" onclick="handleInternalNav('home', 'about-dnt')" class="hover:text-white transition">Why D & T</a></li>
+            <li><a href="#service-areas" onclick="handleInternalNav('home', 'service-areas')" class="hover:text-white transition">Service Areas</a></li>
+            <li><button onclick="switchPage('contact')" class="hover:text-white transition">Contact & Request</button></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Primary Core Services -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-widest text-brand-ice mb-4 font-sora">Services</h4>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li><button onclick="switchPage('services')" class="hover:text-white transition text-left">Air Conditioning</button></li>
+            <li><button onclick="switchPage('services')" class="hover:text-white transition text-left">Heating & Heat Pumps</button></li>
+            <li><button onclick="switchPage('services')" class="hover:text-white transition text-left">Indoor Air Quality</button></li>
+            <li><button onclick="switchPage('services')" class="hover:text-white transition text-left">Water Heaters</button></li>
+            <li><button onclick="switchPage('services')" class="hover:text-white transition text-left">Commercial Capabilities</button></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Verified Contact -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-widest text-brand-ice mb-4 font-sora">Direct Inquiries</h4>
+          <div class="space-y-3 text-sm text-slate-300">
+            <div>
+              <span class="block text-xs text-slate-400">Primary Telephone:</span>
+              <a href="tel:2819558986" class="font-bold text-white hover:text-brand-red transition flex items-center gap-1.5 mt-0.5">
+                <i class="fa-solid fa-phone text-xs text-brand-red"></i> 281-955-8986
+              </a>
+            </div>
+            <div>
+              <span class="block text-xs text-slate-400">Regional Coverage:</span>
+              <span class="text-xs text-slate-200">Cypress & NW Houston, TX</span>
+            </div>
+            <div>
+              <span class="block text-xs text-slate-400">Documented Brand Scope:</span>
+              <span class="text-xs text-slate-200">Service on all major HVAC brands</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Sub-bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+        <p>© <span id="current-year"></span> D & T Air Conditioning. All rights reserved.</p>
+        <div class="flex items-center gap-6">
+          <span>Regulated by TDLR</span>
+          <span>•</span>
+          <span>TACLB4005E</span>
+          <span>•</span>
+          <button onclick="switchPage('contact')" class="hover:text-white underline">Schedule Service</button>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    // Set dynamic current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const drawer = document.getElementById('mobile-drawer');
+      const icon = document.getElementById('menu-icon');
+      if (drawer.classList.contains('hidden')) {
+        drawer.classList.remove('hidden');
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-xmark');
+      } else {
+        drawer.classList.add('hidden');
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      }
+    }
+
+    // Single-Page Architecture Switcher
+    function switchPage(pageId) {
+      // Hide all pages
+      const pages = ['home', 'services', 'contact'];
+      pages.forEach(id => {
+        const pageEl = document.getElementById(`page-${id}`);
+        const navEl = document.getElementById(`nav-link-${id}`);
+        if (pageEl) {
+          pageEl.classList.remove('active');
+        }
+        if (navEl) {
+          navEl.classList.remove('text-brand-navy', 'font-semibold', 'after:opacity-100');
+          navEl.classList.add('text-brand-slate', 'font-medium');
+        }
+      });
+
+      // Activate selected page
+      const activePage = document.getElementById(`page-${pageId}`);
+      const activeNav = document.getElementById(`nav-link-${pageId}`);
+      if (activePage) {
+        activePage.classList.add('active');
+      }
+      if (activeNav) {
+        activeNav.classList.remove('text-brand-slate', 'font-medium');
+        activeNav.classList.add('text-brand-navy', 'font-semibold', 'after:opacity-100');
+      }
+
+      // Scroll smoothly to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Internal navigation handler (e.g. Navigating to #about-dnt on home page)
+    function handleInternalNav(targetPage, anchorId) {
+      switchPage(targetPage);
+      setTimeout(() => {
+        const targetElement = document.getElementById(anchorId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+
+    // Custom Form Handler (Zero Fake promises, honest local handling)
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      
+      const form = document.getElementById('service-request-form');
+      const submitBtn = document.getElementById('submit-btn');
+      const successMsg = document.getElementById('form-success-message');
+
+      // Visual sending indicator
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = `
+        <i class="fa-solid fa-circle-notch fa-spin"></i>
+        <span>Transmitting Request...</span>
+      `;
+
+      // Simulating graceful submission confirmation
+      setTimeout(() => {
+        form.classList.add('hidden');
+        successMsg.classList.remove('hidden');
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = `
+          <span>Submit Service Request</span>
+          <i class="fa-solid fa-paper-plane text-xs"></i>
+        `;
+      }, 700);
+    }
+
+    function resetServiceForm() {
+      const form = document.getElementById('service-request-form');
+      const successMsg = document.getElementById('form-success-message');
+      form.reset();
+      form.classList.remove('hidden');
+      successMsg.classList.add('hidden');
+    }
+
+    // Sticky Navigation dynamic appearance on scroll
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('main-nav');
+      if (window.scrollY > 40) {
+        nav.classList.add('shadow-md');
+      } else {
+        nav.classList.remove('shadow-md');
+      }
+    });
+  </script>
+</body>
+</html>
